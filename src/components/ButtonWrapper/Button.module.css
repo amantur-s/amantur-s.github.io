@@ -1,0 +1,17 @@
+.button_wrapper {
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  background: #4985ff;
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.button_wrapper:hover {
+  background: #6c9dff;
+}
+.button_wrapper:active {
+  background: #3377ff;
+}

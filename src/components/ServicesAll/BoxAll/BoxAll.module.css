@@ -1,0 +1,23 @@
+.box {
+  width: 320px;
+  height: 545px;
+  margin-top: 50px;
+}
+.box img {
+  width: 320px;
+}
+.box h3 {
+  margin-top: 30px;
+  font-size: 18px;
+}
+.box p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #999999;
+  line-height: 25px;
+  text-align: start;
+}
+.box a {
+  font-size: 18px;
+  line-height: 30px;
+}

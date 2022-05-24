@@ -1,0 +1,29 @@
+.services {
+  grid-area: serv;
+  width: 890px;
+  height: 460px;
+  margin-top: 130px;
+  text-align: center;
+}
+.services h2 {
+  width: 600px;
+  height: 88px;
+  font-size: 34px;
+  line-height: 45px;
+}
+.services h5 {
+  width: 720px;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 30px;
+  color: #999999;
+}
+.box_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+.services button {
+  margin-top: 30px;
+}
+

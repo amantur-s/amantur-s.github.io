@@ -1,0 +1,28 @@
+.servicesAll {
+  grid-area: servAll;
+  width: 100%;
+  height: 880px;
+  background: linear-gradient(0deg, #ffffff 50%, #5f12d0 50%);
+}
+.head_title {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+.head_title h2 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  width: 450px;
+  color: #ffffff;
+}
+.boxCont {
+  display: flex;
+  width: 1040px;
+}
+.line {
+  width: 1040px;
+  margin-top: 40px;
+  border-bottom: 2px solid #e0e0e0;
+}

@@ -1,0 +1,33 @@
+.box {
+  width: 260px;
+  height: 140px;
+  margin-top: 60px;
+  display: flex;
+}
+.box img {
+  width: 40px;
+  height: 40px;
+}
+.img_border {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #4985ff;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding-right: 4px;
+}
+.text {
+  width: 220px;
+  line-height: 20px;
+  text-align: left;
+}
+.text p {
+  font-size: 14px;
+  color: #999999;
+}
+.text h3 {
+  font-size: 18px;
+  line-height: 50px;
+}

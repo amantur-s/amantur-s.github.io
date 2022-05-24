@@ -1,0 +1,72 @@
+.header {
+  width: 100%;
+  position: relative;
+  grid-area: head;
+}
+.header img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header_line {
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  opacity: 0.5;
+  border-bottom: 2px solid #a1a1a1;
+}
+.nav {
+  position: absolute;
+  left: 51%;
+  width: 45%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav a {
+  color: white;
+  font-size: 15px;
+  line-height: 19.5px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.nav_link:hover {
+  height: 60px;
+  padding-top: 20px;
+  border-bottom: 2.5px solid #a1a1a1;
+}
+.nav_link:active {
+  border-top: 2.5px solid gainsboro;
+  border-bottom: 0px;
+  padding-top: 18px;
+  color: #898989;
+}
+.head_title {
+  text-align: center;
+  width: 720px;
+}
+.head_title h5 {
+  position: absolute;
+  top: 220px;
+  left: 600px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+.head_title h1 {
+  position: absolute;
+  top: 260px;
+  width: 720px;
+  letter-spacing: 0.5px;
+  line-height: 55px;
+  color: white;
+  font-size: 46px;
+}
+.box button {
+  position: absolute;
+  top: 420px;
+  left: 600px;
+}
